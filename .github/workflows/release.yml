@@ -17,6 +17,8 @@ jobs:
     name: Release
     runs-on: ubuntu-latest
     steps:
+      - uses: geertvdc/setup-hub@master
+      
       - name: Setup golang ${{ env.GO_VERSION }}
         uses: actions/setup-go@v3
         with:
