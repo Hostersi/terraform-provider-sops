@@ -1,4 +1,4 @@
-module github.com/carlpett/terraform-provider-sops
+module github.com/Hostersi/terraform-provider-sops
 
 go 1.21
 

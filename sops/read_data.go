@@ -9,8 +9,8 @@ import (
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
 	"gopkg.in/yaml.v3"
 
-	"github.com/carlpett/terraform-provider-sops/sops/internal/dotenv"
-	"github.com/carlpett/terraform-provider-sops/sops/internal/ini"
+	"github.com/Hostersi/terraform-provider-sops/sops/internal/dotenv"
+	"github.com/Hostersi/terraform-provider-sops/sops/internal/ini"
 )
 
 // readData consolidates the logic of extracting the from the various input methods and setting it on the ResourceData
