@@ -1,3 +1,6 @@
+# FORK INFO
+This project has been forked from https://github.com/carlpett/terraform-provider-sops and https://github.com/ryanrf/terraform-provider-sops to make necessary updates!
+
 # terraform-sops
 
 A Terraform plugin for using files encrypted with [Mozilla sops](https://github.com/mozilla/sops).
